@@ -150,7 +150,13 @@ Wiring: `setRecipient(ledger)` on Lasna, tx
   Sepolia, which is outside these contracts' control. If it lands, the
   delivery tx hash will be recorded here and in the DoraHacks submission.
 
-## Rebuild & redeploy
+## Demo video
+
+`streakkeeper-demo.mp4` (2m42s, text-only, no voice narration) walks through
+the loop with the real on-chain evidence: the origin check-in tx, the
+Lasna reaction tx, and the honest callback status. Frames are generated
+from the live `demo.sh` output by `../make-demo-video.py` in the workspace.
+Run `./demo.sh` yourself to reproduce every number shown.
 
 ```bash
 forge build

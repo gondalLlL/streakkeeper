@@ -10,6 +10,7 @@
 #        ./demo.sh checkin    (also fires a fresh check-in; needs $KEY set
 #                              to the deployer/test wallet private key)
 set -euo pipefail
+export PATH="$HOME/.foundry/bin:$PATH"
 
 BASE=https://sepolia.base.org
 LASNA=https://lasna-rpc.rnk.dev/
